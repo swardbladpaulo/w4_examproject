@@ -1,14 +1,8 @@
 {
   "name": "w4_examproject",
   "version": "1.0.0",
-  "description": "",
+  "description": "examproject",
   "main": "index.js",
-  "dependencies": {
-    "superstatic": "^7.0.1"
-  },
-  "devDependencies": {
-    "cypress": "^5.4.0"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/swardbladpaulo/w4_examproject/issues"
   },
-  "homepage": "https://github.com/swardbladpaulo/w4_examproject#readme"
+  "homepage": "https://github.com/swardbladpaulo/w4_examproject#readme",
+  "devDependencies": {
+    "cypress": "^5.4.0"
+  },
+  "dependencies": {
+    "superstatic": "^7.0.1"
+  },
+  "scripts": {
+    "start": "superstatic src --port 3001",
+    "cy:run": "npm start & cypress open"
+  }
 }
