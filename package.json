@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/swardbladpaulo/w4_examproject/issues"
   },
-  "homepage": "https://github.com/swardbladpaulo/w4_examproject#readme"
+  "homepage": "https://github.com/swardbladpaulo/w4_examproject#readme",
+  "devDependencies": {
+    "cypress": "^5.4.0"
+  }
 }
