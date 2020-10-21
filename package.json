@@ -1,0 +1,19 @@
+{
+  "name": "w4_examproject",
+  "version": "1.0.0",
+  "description": "examproject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swardbladpaulo/w4_examproject.git"
+  },
+  "author": "Paulo Swärdblad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swardbladpaulo/w4_examproject/issues"
+  },
+  "homepage": "https://github.com/swardbladpaulo/w4_examproject#readme"
+}
